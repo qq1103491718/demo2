@@ -1,0 +1,12 @@
+#忽略node_modules目录的所有代码
+node_modules/
+#忽略所有以 .a结尾的文件
+*.a结尾的文件
+
+#跟踪 lib.a文件
+!lib.a
+
+#忽略doc以及其子目录下的所有.pdf文件
+dor/**/*.pdf
+
+# doc/*.pdf
